@@ -1,6 +1,13 @@
-h1{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
+/* header section */
+
+.title{
+    font-family: 'Work Sans';
+    font-size: 65px;
+    text-align: right;
+    margin: 0;
+    padding-top: 200px;
+    padding-right: 100px;
+    color: #151414;
 }
 
 .background-image{
@@ -8,6 +15,50 @@ h1{
     width: 1600px;
     height: 809px;
     left: 1600px;
-    top: 0;
+    top: 0px;
     
 }
+
+.sub-title{
+
+    text-align: right;
+    color: #444343;
+    padding-right: 100px;
+    
+}
+
+.contact-us{
+    width: 160px;
+    height: 64px;
+    float: right;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    align-items: flex-end;
+    border-radius: 5px;
+ 
+}
+
+/* main section  */
+
+.failure-year{
+    display: flex;
+    padding-top: 200px;
+}
+
+.sub-title2{
+
+    text-align: left;
+    color: #444343;
+    padding-right: 100px;
+    
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: #16D887;
+  }
