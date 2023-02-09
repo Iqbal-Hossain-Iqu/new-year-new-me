@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+.background-image{
+    background-image: url(../images/banner/banner2.png);
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0;
+    
+}
